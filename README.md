@@ -13,7 +13,7 @@ while (true) {
     var coordX = parseInt(readline()); // the position on the road of the motorbike.
 
 
-    if (coordX > road) {
+    if (coordX > road - 1) {
         print('SLOW');
     } else if (coordX + speed > road + 1) {
         print('JUMP');
